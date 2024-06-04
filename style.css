@@ -1,0 +1,50 @@
+    body {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 30px;
+      background-color: #D8C3A5;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .question {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      padding-top: 25px;
+      padding-bottom: 15px;
+    }
+
+    .options {
+      font-family: 'Montserrat', sans-serif;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+
+    }
+
+    .option {
+      font-family: 'Montserrat', sans-serif;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+    }
+
+    .option input {
+      width: 20px;
+      height: 20px;
+      margin-right: 20px;
+    }
+
+    p{
+      margin-top:5px ;
+      margin-bottom: 5px;
+    }
+
+    br{
+      line-height:0px;
+    }
